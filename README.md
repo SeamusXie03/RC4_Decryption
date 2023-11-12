@@ -5,7 +5,7 @@
 This project implements an RC4 Decryption circuit on an FPGA, supporting up to four cores operating simultaneously. RC4 is a stream cipher used for decrypting messages encrypted with the RC4 algorithm. The FPGA is configured to take a secret key from hardware switches and decrypt an encrypted message stored in on-chip memory.
 
 The original software code:
-'''c
+```c
 // initialize s array. Accelerated in hardware
 for i = 0 to 255 {
     s[i] = i;
@@ -27,7 +27,7 @@ for k = 0 to message_length-1 { // message_length is 32 in our implementation
     decrypted_output[k] = f xor encrypted_input[k]
     // 8 bit wide XOR function
 }
-'''
+```
 ## Features
 
 - **Multi-Core Support:** The implementation supports up to four decryption cores running simultaneously, enhancing the efficiency of the key search process.
