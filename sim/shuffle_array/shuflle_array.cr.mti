@@ -1,0 +1,15 @@
+C:/Users/JoeGee/Desktop/CPEN_311_23S/Labs/4/CPEN_311_Lab_4/rtl/shuffle_array.sv {1 {vlog -work work -sv -stats=none C:/Users/JoeGee/Desktop/CPEN_311_23S/Labs/4/CPEN_311_Lab_4/rtl/shuffle_array.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shuffle_array
+
+Top level modules:
+	shuffle_array
+
+} {} {}} C:/Users/JoeGee/Desktop/CPEN_311_23S/Labs/4/CPEN_311_Lab_4/sim/shuffle_array/tb_shuffle_array.sv {1 {vlog -work work -sv -stats=none C:/Users/JoeGee/Desktop/CPEN_311_23S/Labs/4/CPEN_311_Lab_4/sim/shuffle_array/tb_shuffle_array.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_shuffle_array
+
+Top level modules:
+	tb_shuffle_array
+
+} {} {}}
